@@ -2,6 +2,7 @@
 reset the style
 ========================================================
 */
+@import url("https://fonts.googleapis.com/css?family=Lato|Noto+Sans+JP|Noto+Serif+JP|Playfair+Display");
 html,
 body,
 div,
@@ -144,30 +145,35 @@ prefix: .l-
   width: 100%; }
 
 .l-display-flex {
-  max-width: 1300px;
-  margin: 64px auto;
+  width: 80vw;
+  margin: 6vw auto;
   display: flex; }
 
 .l-profile-wrapper {
-  flex: 1; }
+  flex: 1;
+  max-width: 500px; }
 
 .l-contents-wrapper {
   flex: 2; }
 
 .l-profile-box {
-  width: 80%;
-  margin: 0 auto; }
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 26px 0 0; }
 
 .l-contents-flex {
-  width: 80%;
   margin: 0 auto;
-  display: flex; }
+  display: flex;
+  justify-content: center; }
 
 .l-contents-box-left {
-  flex: 1; }
+  width: 18vw; }
+
+.l-contents-box-mgn {
+  width: 4vw; }
 
 .l-contents-box-right {
-  flex: 1; }
+  width: 18vw; }
 
 /*
 objects
@@ -181,8 +187,77 @@ prefix: .c-
 projects
 prefix: .c-
 */
+.p-p-box-shadow {
+  box-shadow: 24px 24px #dcdcdc; }
+
+.p-p-english-name {
+  font-family: "Lato", sans-serif;
+  font-size: 64px;
+  line-height: 1.2em;
+  margin: 0 auto 24px -3px;
+  color: #000; }
+
+.p-p-japanese-name {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  color: #000;
+  margin-bottom: 32px; }
+
+.p-p-email {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  color: #000;
+  margin-bottom: 96px; }
+
+.p-p-history {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #6b6b6b;
+  line-height: 1.5em; }
+  .p-p-history h3 {
+    font-size: 24px;
+    margin-bottom: 32px; }
+  .p-p-history p {
+    font-size: 16px; }
+
+.p-c-box-1 {
+  background-color: #aaafff;
+  height: 6vw;
+  box-shadow: 8px 8px #9d9d9d; }
+
+.p-c-box-2 {
+  background-color: #afefe1;
+  height: 12vw;
+  box-shadow: 8px 8px #9d9d9d; }
+
+.p-c-box-3 {
+  background-color: #fadf09;
+  height: 18vw;
+  box-shadow: 8px 8px #9d9d9d; }
+
+.p-c-box-4 {
+  background-color: #d09eae;
+  height: 24vw;
+  box-shadow: 8px 8px #9d9d9d; }
+
+.p-c-box-text {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  color: #6b6b6b;
+  padding: 16px; }
+
+.p-c-box-img {
+  object-fit: cover; }
+
 /*
 projects
 prefix: .u-
 
 */
+.u-pdg-64-btm {
+  padding-bottom: 64px; }
+
+.u-mgn-2vw-btm {
+  margin-bottom: 2vw; }

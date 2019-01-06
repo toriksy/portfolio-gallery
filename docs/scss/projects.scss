@@ -1,0 +1,76 @@
+.p-p-box-shadow {
+  box-shadow: 24px 24px #dcdcdc;
+}
+
+.p-p-english-name {
+  font-family: $lato;
+  font-size: 64px;
+  line-height: 1.2em;
+  margin: 0 auto 24px -3px;
+  color: $black;
+}
+
+.p-p-japanese-name {
+  font-family: $notoSans;
+  font-size: 24px;
+  font-weight: 100;
+  color: $black;
+  margin-bottom: 32px;
+}
+
+.p-p-email {
+  font-family: $lato;
+  font-size: 20px;
+  font-weight: 100;
+  color: $black;
+  margin-bottom: 96px;
+}
+
+.p-p-history {
+  font-family: $notoSans;
+  color: $subFont;
+  line-height: 1.5em;
+  h3 {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+.p-c-box-1 {
+  background-color: #aaafff;
+  height: 6vw;
+  box-shadow: 8px 8px #9d9d9d;
+}
+
+.p-c-box-2 {
+  background-color: #afefe1;
+  height: 12vw;
+  box-shadow: 8px 8px #9d9d9d;
+}
+
+.p-c-box-3 {
+  background-color: #fadf09;
+  height: 18vw;
+  box-shadow: 8px 8px #9d9d9d;
+}
+
+.p-c-box-4 {
+  background-color: #d09eae;
+  height: 24vw;
+  box-shadow: 8px 8px #9d9d9d;
+}
+
+.p-c-box-text {
+  font-family: $notoSans;
+  font-size: 16px;
+  font-weight: 100;
+  color: $subFont;
+  padding: 16px;
+}
+
+.p-c-box-img {
+  object-fit: cover;
+}
