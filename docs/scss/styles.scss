@@ -1,4 +1,42 @@
+/*
+reset the style
+========================================================
+*/
+@import "./docs/scss/foundation.scss";
+
+/*
+colors, font-styles
+========================================================
+*/
 @import "./docs/scss/colors.scss";
-@import "./docs/scss/icons.scss";
-@import "./docs/scss/header-nav.scss";
-@import "./docs/scss/footer-nav.scss";
+
+/*
+layout of the window
+prefix: .l-
+========================================================
+*/
+@import "./docs/scss/layouts.scss";
+
+/*
+objects
+========================================================
+*/
+
+/*
+components
+prefix: .c-
+*/
+@import "./docs/scss/components.scss";
+
+/*
+projects
+prefix: .c-
+*/
+@import "./docs/scss/projects.scss";
+
+/*
+projects
+prefix: .u-
+
+*/
+@import "./docs/scss/utilities.scss";

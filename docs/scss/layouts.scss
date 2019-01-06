@@ -1,0 +1,36 @@
+.l-wrapper {
+  width: 100%;
+}
+
+.l-display-flex {
+  max-width: 1300px;
+  margin: 64px auto;
+  display: flex;
+}
+
+.l-profile-wrapper {
+  flex: 1;
+}
+
+.l-contents-wrapper {
+  flex: 2;
+}
+
+.l-profile-box {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.l-contents-flex {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.l-contents-box-left {
+  flex: 1;
+}
+
+.l-contents-box-right {
+  flex: 1;
+}
