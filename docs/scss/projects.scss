@@ -1,66 +1,97 @@
-.p-p-box-shadow {
-  box-shadow: 24px 24px #dcdcdc;
+html {
+  background-color: #fff;
 }
 
-.p-p-english-name {
+.p-link-top {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: rgba(7, 89, 212, 1);
+  a {
+    color: #fff;
+    font-family: $lato;
+    font-size: 56px;
+    font-weight: 900;
+    position: absolute;
+    top: 26px;
+    left: 26px;
+  }
+}
+
+.p-h-profile-box {
+  @include border;
+  background-color: #fff;
+  padding-left: 16px;
+}
+
+.p-h-english-name {
   font-family: $lato;
-  font-size: 64px;
+  font-size: 96px;
   line-height: 1.2em;
-  margin: 0 auto 24px -3px;
+  margin: 0 auto 8px -3px;
   color: $black;
 }
 
-.p-p-japanese-name {
+.p-h-japanese-name {
   font-family: $notoSans;
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 100;
   color: $black;
   margin-bottom: 32px;
 }
 
-.p-p-email {
+.p-h-email {
   font-family: $lato;
-  font-size: 20px;
+  font-size: 36px;
   font-weight: 100;
   color: $black;
   margin-bottom: 96px;
 }
 
-.p-p-history {
+.p-h-history {
   font-family: $notoSans;
-  color: $subFont;
-  line-height: 1.5em;
+  color: $black;
+
   h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  h4 {
     font-size: 24px;
     margin-bottom: 32px;
   }
   p {
     font-size: 16px;
+    line-height: 2em;
   }
 }
 
+.p-h-upper-box {
+  background-color: #fadf09;
+  @include border;
+}
+
+.p-h-lower-box {
+  background-color: aqua;
+  @include border;
+}
+
 .p-c-box-1 {
-  background-color: #aaafff;
-  height: 6vw;
-  box-shadow: 8px 8px #9d9d9d;
+  background-color: #fadf09;
+  height: 18vw;
+  @include border-content;
 }
 
 .p-c-box-2 {
-  background-color: #afefe1;
-  height: 12vw;
-  box-shadow: 8px 8px #9d9d9d;
+  background-color: #d09eae;
+  height: 24vw;
+  @include border-content;
 }
 
 .p-c-box-3 {
-  background-color: #fadf09;
-  height: 18vw;
-  box-shadow: 8px 8px #9d9d9d;
-}
-
-.p-c-box-4 {
-  background-color: #d09eae;
-  height: 24vw;
-  box-shadow: 8px 8px #9d9d9d;
+  background-color: #effdea;
+  height: 36vw;
+  @include border-content;
 }
 
 .p-c-box-text {

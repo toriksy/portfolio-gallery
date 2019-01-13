@@ -90,7 +90,8 @@ video {
   font-size: 100%;
   font: inherit;
   text-decoration: none;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  box-sizing: border-box; }
 
 article,
 aside,
@@ -144,36 +145,47 @@ prefix: .l-
 .l-wrapper {
   width: 100%; }
 
-.l-display-flex {
-  width: 80vw;
-  margin: 6vw auto;
-  display: flex; }
+.l-link-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 8vw;
+  margin-bottom: -80px; }
 
-.l-profile-wrapper {
-  flex: 1;
-  max-width: 500px; }
-
-.l-contents-wrapper {
-  flex: 2; }
-
-.l-profile-box {
-  max-width: 400px;
+.l-header-grid {
+  width: 84vw;
+  height: 48vw;
   margin: 0 auto;
-  padding: 0 26px 0 0; }
+  display: grid;
+  grid-template-rows: 24vw 1fr;
+  grid-template-columns: calc(48vw - 3px) 1fr; }
+
+.l-header-profile-box {
+  grid-row: 1 / 3;
+  grid-column: 1 / 2; }
+
+.l-header-content-upper-box {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3; }
+
+.l-header-content-lower-box {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3; }
 
 .l-contents-flex {
+  width: 84vw;
   margin: 0 auto;
   display: flex;
   justify-content: center; }
 
 .l-contents-box-left {
-  width: 18vw; }
+  width: 24vw; }
 
-.l-contents-box-mgn {
-  width: 4vw; }
+.l-contents-box-middle {
+  width: 24vw; }
 
 .l-contents-box-right {
-  width: 18vw; }
+  width: 36vw; }
 
 /*
 objects
@@ -183,63 +195,104 @@ objects
 components
 prefix: .c-
 */
+a {
+  color: #f58e00; }
+
+a:hover {
+  color: #fbc883;
+  transition: 2ms; }
+
+a:visited {
+  color: #7000c2; }
+
 /*
 projects
 prefix: .c-
 */
-.p-p-box-shadow {
-  box-shadow: 24px 24px #dcdcdc; }
+html {
+  background-color: #fff; }
 
-.p-p-english-name {
+.p-link-top {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #0759d4; }
+  .p-link-top a {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 56px;
+    font-weight: 900;
+    position: absolute;
+    top: 26px;
+    left: 26px; }
+
+.p-h-profile-box {
+  border-top: 6px solid #000;
+  border-left: 6px solid #000;
+  background-color: #fff;
+  padding-left: 16px; }
+
+.p-h-english-name {
   font-family: "Lato", sans-serif;
-  font-size: 64px;
+  font-size: 96px;
   line-height: 1.2em;
-  margin: 0 auto 24px -3px;
+  margin: 0 auto 8px -3px;
   color: #000; }
 
-.p-p-japanese-name {
+.p-h-japanese-name {
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 100;
   color: #000;
   margin-bottom: 32px; }
 
-.p-p-email {
+.p-h-email {
   font-family: "Lato", sans-serif;
-  font-size: 20px;
+  font-size: 36px;
   font-weight: 100;
   color: #000;
   margin-bottom: 96px; }
 
-.p-p-history {
+.p-h-history {
   font-family: "Noto Sans JP", sans-serif;
-  color: #6b6b6b;
-  line-height: 1.5em; }
-  .p-p-history h3 {
+  color: #000; }
+  .p-h-history h3 {
+    font-size: 24px;
+    margin-bottom: 16px; }
+  .p-h-history h4 {
     font-size: 24px;
     margin-bottom: 32px; }
-  .p-p-history p {
-    font-size: 16px; }
+  .p-h-history p {
+    font-size: 16px;
+    line-height: 2em; }
+
+.p-h-upper-box {
+  background-color: #fadf09;
+  border-top: 6px solid #000;
+  border-left: 6px solid #000; }
+
+.p-h-lower-box {
+  background-color: aqua;
+  border-top: 6px solid #000;
+  border-left: 6px solid #000; }
 
 .p-c-box-1 {
-  background-color: #aaafff;
-  height: 6vw;
-  box-shadow: 8px 8px #9d9d9d; }
-
-.p-c-box-2 {
-  background-color: #afefe1;
-  height: 12vw;
-  box-shadow: 8px 8px #9d9d9d; }
-
-.p-c-box-3 {
   background-color: #fadf09;
   height: 18vw;
-  box-shadow: 8px 8px #9d9d9d; }
+  border-right: 6px solid #000;
+  border-bottom: 6px solid #000; }
 
-.p-c-box-4 {
+.p-c-box-2 {
   background-color: #d09eae;
   height: 24vw;
-  box-shadow: 8px 8px #9d9d9d; }
+  border-right: 6px solid #000;
+  border-bottom: 6px solid #000; }
+
+.p-c-box-3 {
+  background-color: #effdea;
+  height: 36vw;
+  border-right: 6px solid #000;
+  border-bottom: 6px solid #000; }
 
 .p-c-box-text {
   font-family: "Noto Sans JP", sans-serif;
@@ -256,6 +309,13 @@ projects
 prefix: .u-
 
 */
+.u-border {
+  border-right: 6px solid #000;
+  border-bottom: 6px solid #000; }
+
+.u-border-content {
+  border-left: 6px solid #000; }
+
 .u-pdg-64-btm {
   padding-bottom: 64px; }
 

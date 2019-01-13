@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "watchall": "concurrently \"yarn serve\" \"yarn format\" \"yarn watchbuild\" \"yarn watchsass\"",
-    "dev": "concurrently \"yarn serve\" \"yarn format\" \"yarn watchsass\"",
+    "dev": "concurrently  \"yarn serve\" \"yarn format\" \"yarn watchsass\"",
     "serve": "browser-sync start --config bs-config.js",
     "format": "onchange 'docs/' -- prettier --write {{changed}}",
     "watchbuild": "webpack --watch",

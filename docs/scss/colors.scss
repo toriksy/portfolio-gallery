@@ -13,3 +13,13 @@ $notoSans: "Noto Sans JP", sans-serif;
 $notoSerif: "Noto Serif JP", serif;
 $lato: "Lato", sans-serif;
 $playfair: "Playfair Display", serif;
+
+@mixin border {
+  border-top: 6px solid $black;
+  border-left: 6px solid $black;
+}
+
+@mixin border-content {
+  border-right: 6px solid $black;
+  border-bottom: 6px solid $black;
+}
