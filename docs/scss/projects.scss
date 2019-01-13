@@ -1,20 +1,19 @@
 html {
-  background-color: #fff;
+  background-color: $vuecolor;
 }
 
 .p-link-top {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  background-color: rgba(7, 89, 212, 1);
+  width: 192px;
+  height: 128px;
+  background-color: $vuecolor;
   a {
     color: #fff;
     font-family: $lato;
     font-size: 56px;
     font-weight: 900;
     position: absolute;
-    top: 26px;
-    left: 26px;
+    top: 36px;
+    left: 46px;
   }
 }
 
@@ -98,10 +97,13 @@ html {
   font-family: $notoSans;
   font-size: 16px;
   font-weight: 100;
-  color: $subFont;
+  color: $black;
   padding: 16px;
 }
 
 .p-c-box-img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
   object-fit: cover;
 }

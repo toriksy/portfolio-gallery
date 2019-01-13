@@ -6,16 +6,18 @@
   position: fixed;
   bottom: 0;
   right: 0;
-  margin-right: 8vw;
-  margin-bottom: -80px;
+  margin-right: 3vw;
+  margin-bottom: 32px;
+  z-index: 10;
 }
 
 .l-header-grid {
   width: 84vw;
   height: 48vw;
+  max-height: 48vw;
   margin: 0 auto;
   display: grid;
-  grid-template-rows: 24vw 1fr;
+  grid-template-rows: 24vw 24vw;
   grid-template-columns: calc(48vw - 3px) 1fr;
 }
 
@@ -39,6 +41,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  z-index: 5;
 }
 
 .l-contents-box-left {
