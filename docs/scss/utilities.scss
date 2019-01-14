@@ -14,3 +14,10 @@
 .u-mgn-2vw-btm {
   margin-bottom: 2vw;
 }
+
+@media screen and (max-width: 1260px) {
+  /*　画面サイズが1260pxまではここを読み込む　*/
+  .u-pdg-64-btm {
+    padding-bottom: 8px;
+  }
+}

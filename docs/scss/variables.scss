@@ -6,8 +6,6 @@ $link: #427bb0;
 $linkHover: #2bd3f8;
 $linkVisited: #1b4e7d;
 
-$boxShadow: #9d9d9d;
-
 @import url("https://fonts.googleapis.com/css?family=Lato|Noto+Sans+JP|Noto+Serif+JP|Playfair+Display");
 
 $notoSans: "Noto Sans JP", sans-serif;
@@ -24,3 +22,7 @@ $playfair: "Playfair Display", serif;
   border-right: 6px solid $black;
   border-bottom: 6px solid $black;
 }
+
+$transition: all 0.2s ease-in-out;
+
+$profilesize: calc(60vw - 4px);
