@@ -14,13 +14,13 @@ $lato: "Lato", sans-serif;
 $playfair: "Playfair Display", serif;
 
 @mixin border {
-  border-top: 6px solid $black;
-  border-left: 6px solid $black;
+  border-top: 4px solid $black;
+  border-left: 4px solid $black;
 }
 
 @mixin border-content {
-  border-right: 6px solid $black;
-  border-bottom: 6px solid $black;
+  border-right: 4px solid $black;
+  border-bottom: 4px solid $black;
 }
 
 $transition: all 0.2s ease-in-out;

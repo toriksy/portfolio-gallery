@@ -1,5 +1,5 @@
 html {
-  background-color: #fff;
+  background-color: $black;
 }
 
 /*
@@ -277,6 +277,10 @@ Media query
 
 @media screen and (max-width: 800px) {
   /*　画面サイズが800pxまではここを読み込む　*/
+  html {
+    background-color: #fff;
+  }
+
   .p-link-top {
     width: 96px;
     height: 64px;

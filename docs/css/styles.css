@@ -277,7 +277,7 @@ projects
 prefix: .c-
 */
 html {
-  background-color: #fff;
+  background-color: #000;
 }
 
 /*
@@ -309,8 +309,8 @@ back to top button
 header profile area
 */
 .p-h-profile-box {
-  border-top: 6px solid #000;
-  border-left: 6px solid #000;
+  border-top: 4px solid #000;
+  border-left: 4px solid #000;
   background-color: #fff;
   padding-left: 2vw;
 }
@@ -368,15 +368,15 @@ header profile area
 
 .p-h-upper-box {
   position: relative;
-  border-top: 6px solid #000;
-  border-left: 6px solid #000;
+  border-top: 4px solid #000;
+  border-left: 4px solid #000;
   overflow: hidden;
 }
 
 .p-h-lower-box {
   position: relative;
-  border-top: 6px solid #000;
-  border-left: 6px solid #000;
+  border-top: 4px solid #000;
+  border-left: 4px solid #000;
   overflow: hidden;
 }
 
@@ -389,8 +389,8 @@ contains area
   background-color: #fadf09;
   height: 20vw;
   max-height: 400px;
-  border-right: 6px solid #000;
-  border-bottom: 6px solid #000;
+  border-right: 4px solid #000;
+  border-bottom: 4px solid #000;
   overflow: hidden;
 }
 
@@ -399,8 +399,8 @@ contains area
   background-color: #9287f3;
   height: 30vw;
   max-height: 600px;
-  border-right: 6px solid #000;
-  border-bottom: 6px solid #000;
+  border-right: 4px solid #000;
+  border-bottom: 4px solid #000;
   overflow: hidden;
 }
 
@@ -409,8 +409,8 @@ contains area
   background-color: #2aa7c7;
   height: 40vw;
   max-height: 800px;
-  border-right: 6px solid #000;
-  border-bottom: 6px solid #000;
+  border-right: 4px solid #000;
+  border-bottom: 4px solid #000;
   overflow: hidden;
 }
 
@@ -546,6 +546,9 @@ Media query
 
 @media screen and (max-width: 800px) {
   /*　画面サイズが800pxまではここを読み込む　*/
+  html {
+    background-color: #fff;
+  }
   .p-link-top {
     width: 96px;
     height: 64px;
@@ -631,12 +634,12 @@ prefix: .u-
 
 */
 .u-border {
-  border-right: 6px solid #000;
+  border-right: 4px solid #000;
 }
 
 .u-border-content {
-  border-top: 6px solid #000;
-  border-left: 6px solid #000;
+  border-top: 4px solid #000;
+  border-left: 4px solid #000;
 }
 
 .u-pdg-64-btm {
