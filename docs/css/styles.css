@@ -195,6 +195,8 @@ prefix: .l-
   width: 40%; }
 
 @media screen and (max-width: 800px) {
+  .l-link-top {
+    margin-bottom: 24px; }
   .l-header-grid {
     width: 100%;
     height: auto;
@@ -254,7 +256,8 @@ back to top button
   width: 192px;
   height: 128px;
   background-color: #41b883;
-  text-align: center; }
+  text-align: center;
+  cursor: pointer; }
   .p-link-top img {
     margin-top: 20px;
     width: 40px;
@@ -471,20 +474,66 @@ Media query
     padding: 8px; } }
 
 @media screen and (max-width: 800px) {
+  /*　画面サイズが800pxまではここを読み込む　*/
+  .p-link-top {
+    width: 96px;
+    height: 64px; }
+    .p-link-top img {
+      margin-top: 10px;
+      width: 24px;
+      height: 24px; }
+    .p-link-top span {
+      font-size: 16px; }
+  .p-h-profile-box {
+    padding: 0 6vw;
+    border: none; }
+  .p-h-english-name {
+    font-size: 72px;
+    margin-top: 64px;
+    margin-bottom: 16px; }
+  .p-h-japanese-name {
+    font-size: 24px;
+    margin-bottom: 40px; }
+  .p-h-email {
+    font-size: 16px;
+    margin-bottom: 120px; }
+  .p-h-history-wrapper {
+    display: block;
+    padding-bottom: 48px; }
+  .p-h-history-title h3 {
+    font-size: 16px;
+    font-weight: 900;
+    margin: 4px auto 8px; }
+  .p-h-history-title h4 {
+    font-size: 16px;
+    margin-bottom: 16px; }
+  .p-h-history-detail {
+    padding-left: 0;
+    font-size: 14px;
+    line-height: 1.5em;
+    padding-bottom: 80px; }
+  .p-h-upper-box {
+    border: none; }
+  .p-h-lower-box {
+    border: none; }
   .p-c-box-1 {
-    height: 60vw; }
+    height: 60vw;
+    border: none; }
   .p-c-box-2 {
-    height: 80vw; }
+    height: 80vw;
+    border: none; }
   .p-c-box-3 {
-    height: 100vw; }
+    height: 100vw;
+    border: none; }
+  .p-u-box-img {
+    vertical-align: bottom; }
   .p-u-hover-comment {
     position: absolute;
     left: 50%;
     width: 50%;
     opacity: 1;
     color: #000;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-left: 6px solid #000; } }
+    background-color: rgba(255, 255, 255, 0.8); } }
 
 /*
 projects
@@ -508,3 +557,10 @@ prefix: .u-
   /*　画面サイズが1260pxまではここを読み込む　*/
   .u-pdg-64-btm {
     padding-bottom: 8px; } }
+
+@media screen and (max-width: 800px) {
+  /*　画面サイズが800pxまではここを読み込む　*/
+  .u-border {
+    border: none; }
+  .u-border-content {
+    border: none; } }
