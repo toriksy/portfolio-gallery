@@ -184,7 +184,6 @@ universal
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 3;
   font-family: $notoSans;
   font-size: 16px;
   line-height: 1.5em;
@@ -277,7 +276,7 @@ Media query
 }
 
 @media screen and (max-width: 800px) {
-    /*　画面サイズが800pxまではここを読み込む　*/
+  /*　画面サイズが800pxまではここを読み込む　*/
   .p-link-top {
     width: 96px;
     height: 64px;
@@ -308,7 +307,7 @@ Media query
   }
 
   .p-h-email {
-    font-size:16px;
+    font-size: 16px;
     margin-bottom: 120px;
   }
 
@@ -339,24 +338,24 @@ Media query
   .p-h-upper-box {
     border: none;
   }
-  
+
   .p-h-lower-box {
-    border:none;
+    border: none;
   }
 
   .p-c-box-1 {
     height: 60vw;
-    border:none;
+    border: none;
   }
 
   .p-c-box-2 {
     height: 80vw;
-    border:none;
+    border: none;
   }
 
   .p-c-box-3 {
     height: 100vw;
-    border:none;
+    border: none;
   }
   .p-u-box-img {
     vertical-align: bottom;
