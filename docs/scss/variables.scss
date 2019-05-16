@@ -1,6 +1,7 @@
-$black: #000;
+$black: #666666;
+$black-s: #252525;
 $subFont: #6b6b6b;
-$vuecolor: #41b883;
+$vuecolor: #3e8cac;
 
 $link: #427bb0;
 $linkHover: #2bd3f8;
@@ -14,13 +15,13 @@ $lato: "Lato", sans-serif;
 $playfair: "Playfair Display", serif;
 
 @mixin border {
-  border-top: 4px solid $black;
-  border-left: 4px solid $black;
+  border-top: 4px solid #000;
+  border-left: 4px solid #000;
 }
 
 @mixin border-content {
-  border-right: 4px solid $black;
-  border-bottom: 4px solid $black;
+  border-right: 4px solid #000;
+  border-bottom: 4px solid #000;
 }
 
 $transition: all 0.2s ease-in-out;

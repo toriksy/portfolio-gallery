@@ -256,7 +256,7 @@ back to top button
 .p-link-top {
   width: 192px;
   height: 128px;
-  background-color: #41b883;
+  background-color: #3e8cac;
   text-align: center;
   cursor: pointer; }
   .p-link-top img {
@@ -284,22 +284,22 @@ header profile area
   font-family: "Lato", sans-serif;
   font-size: 48px;
   line-height: 1.2em;
-  margin: 1vw auto 8px -3px;
-  color: #000; }
+  margin: 1vw auto 1vw -3px;
+  color: #252525; }
 
 .p-h-japanese-name {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 32px;
   font-weight: 100;
-  color: #000;
-  margin-bottom: 32px; }
+  color: #252525;
+  margin-bottom: 4vw; }
 
 .p-h-email {
   font-family: "Lato", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 100;
-  color: #000;
-  margin-bottom: 64px; }
+  color: #666666;
+  margin-bottom: 7vw; }
 
 .p-h-history-wrapper {
   display: flex; }
@@ -307,7 +307,7 @@ header profile area
 .p-h-history-title {
   width: 160px;
   font-family: "Noto Sans JP", sans-serif;
-  color: #000; }
+  color: #252525; }
   .p-h-history-title h3 {
     font-size: 20px;
     font-weight: 900;
@@ -319,7 +319,7 @@ header profile area
 .p-h-history-detail {
   flex: 1;
   font-family: "Noto Sans JP", sans-serif;
-  color: #000;
+  color: #666666;
   padding-left: 40px;
   font-size: 16px;
   line-height: 1.8em; }
@@ -342,7 +342,7 @@ contains area
 */
 .p-c-box-1 {
   position: relative;
-  background-color: #fadf09;
+  background-color: #b7eb56;
   height: 20vw;
   max-height: 400px;
   border-right: 4px solid #000;
@@ -360,7 +360,7 @@ contains area
 
 .p-c-box-3 {
   position: relative;
-  background-color: #2aa7c7;
+  background-color: #69c72a;
   height: 40vw;
   max-height: 800px;
   border-right: 4px solid #000;
@@ -375,13 +375,13 @@ universal
   font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
   font-weight: 100;
-  color: #000;
+  color: #252525;
   padding: 16px;
   line-height: 1.5em; }
 
 .p-u-box-title {
   font-family: "Noto Sans JP", sans-serif;
-  color: #000;
+  color: #252525;
   padding: 16px;
   line-height: 2em;
   cursor: pointer; }
@@ -394,7 +394,7 @@ universal
     font-weight: 100; }
 
 .p-u-box-title:hover {
-  background-color: #41b883;
+  background-color: #3e8cac;
   color: #fff;
   transition: all 0.2s ease-in-out; }
 
@@ -414,7 +414,7 @@ universal
   font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
   line-height: 1.5em;
-  background: #41b883;
+  background: #3e8cac;
   color: #fff;
   padding: 16px;
   cursor: pointer;
@@ -440,10 +440,10 @@ Media query
     font-size: 32px; }
   .p-h-japanese-name {
     font-size: 28px;
-    margin-bottom: 8px; }
+    margin-bottom: 24px; }
   .p-h-email {
     font-size: 16px;
-    margin-bottom: 24px; }
+    margin-bottom: 40px; }
   .p-h-history-wrapper {
     display: block; }
   .p-h-history-title {
@@ -540,7 +540,7 @@ Media query
     left: 50%;
     width: 50%;
     opacity: 1;
-    color: #000;
+    color: #666666;
     background-color: rgba(255, 255, 255, 0.8); } }
 
 /*
