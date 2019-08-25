@@ -145,7 +145,8 @@ prefix: .l-
 ========================================================
 */
 .l-wrapper {
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
 
 .l-link-top {
   position: fixed;
@@ -247,7 +248,7 @@ projects
 prefix: .c-
 */
 html {
-  background-color: #000; }
+  background-color: #fff; }
 
 /*
 ======================================
@@ -275,8 +276,8 @@ back to top button
 header profile area
 */
 .p-h-profile-box {
-  border-top: 4px solid #000;
-  border-left: 4px solid #000;
+  border-top: 16px solid #fff;
+  border-left: 16px solid #fff;
   background-color: #fff;
   padding-left: 2vw; }
 
@@ -326,14 +327,14 @@ header profile area
 
 .p-h-upper-box {
   position: relative;
-  border-top: 4px solid #000;
-  border-left: 4px solid #000;
-  overflow: hidden; }
+  overflow: hidden;
+  border-top: 16px solid #fff;
+  border-left: 16px solid #fff; }
 
 .p-h-lower-box {
   position: relative;
-  border-top: 4px solid #000;
-  border-left: 4px solid #000;
+  border-top: 16px solid #fff;
+  border-left: 16px solid #fff;
   overflow: hidden; }
 
 /*
@@ -345,8 +346,8 @@ contains area
   background-color: #b7eb56;
   height: 20vw;
   max-height: 400px;
-  border-right: 4px solid #000;
-  border-bottom: 4px solid #000;
+  border-right: 16px solid #fff;
+  border-bottom: 16px solid #fff;
   overflow: hidden; }
 
 .p-c-box-2 {
@@ -354,8 +355,8 @@ contains area
   background-color: #9287f3;
   height: 30vw;
   max-height: 600px;
-  border-right: 4px solid #000;
-  border-bottom: 4px solid #000;
+  border-right: 16px solid #fff;
+  border-bottom: 16px solid #fff;
   overflow: hidden; }
 
 .p-c-box-3 {
@@ -363,8 +364,8 @@ contains area
   background-color: #69c72a;
   height: 40vw;
   max-height: 800px;
-  border-right: 4px solid #000;
-  border-bottom: 4px solid #000;
+  border-right: 16px solid #fff;
+  border-bottom: 16px solid #fff;
   overflow: hidden; }
 
 /*
@@ -549,11 +550,11 @@ prefix: .u-
 
 */
 .u-border {
-  border-right: 4px solid #000; }
+  border-right: 16px solid #fff; }
 
 .u-border-content {
-  border-top: 4px solid #000;
-  border-left: 4px solid #000; }
+  border-top: 16px solid #fff;
+  border-left: 16px solid #fff; }
 
 .u-pdg-32-btm {
   padding-bottom: 32px; }

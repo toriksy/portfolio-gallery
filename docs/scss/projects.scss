@@ -1,5 +1,5 @@
 html {
-  background-color: #000;
+  background-color: $border-color;
 }
 
 /*
@@ -92,8 +92,9 @@ header profile area
 
 .p-h-upper-box {
   position: relative;
-  @include border;
+
   overflow: hidden;
+  @include border;
 }
 
 .p-h-lower-box {
