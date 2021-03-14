@@ -2,4 +2,4 @@
 
 SCSS + FLOCSS で作成<br>
 
-https://torixai.github.io/portfolio-gallery/
+https://Fudodi.github.io/portfolio-gallery/
